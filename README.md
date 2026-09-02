@@ -29,9 +29,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/anuptiwari7033/DSA_practice/tree/master/0127-word-ladder) |
 | [0733-flood-fill](https://github.com/anuptiwari7033/DSA_practice/tree/master/0733-flood-fill) |
 ## Matrix
 |  |
 | ------- |
 | [0733-flood-fill](https://github.com/anuptiwari7033/DSA_practice/tree/master/0733-flood-fill) |
+## Hash Table
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/anuptiwari7033/DSA_practice/tree/master/0127-word-ladder) |
+## String
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/anuptiwari7033/DSA_practice/tree/master/0127-word-ladder) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/anuptiwari7033/DSA_practice/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
