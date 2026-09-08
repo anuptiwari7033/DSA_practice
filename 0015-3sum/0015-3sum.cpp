@@ -1,33 +1,42 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-         int n = nums.size();
-        vector<vector<int>> v;
-        // int i=0;
-        // int j=n-1;
-        sort(nums.begin(), nums.end());
-        for (int k = 0; k < n - 2; k++) {
-            int i = k + 1;
-            int j = n - 1;
-            while (i < j) {
-            int sum = nums[i] + nums[k] + nums[j];
-                if (sum == 0) {
-                    v.push_back({nums[k], nums[i], nums[j]});
-                    i++;
-                    j--;
-                    while (i < j  && nums[i - 1] == nums[i])
-                        i++;
-                    while (i < j  && nums[j + 1] == nums[j])
-                        j--;
-                } else if (sum > 0) {
-                    j--;
-                } else {
-                    i++;
-                }
-            }
-            while (k < n - 2 && nums[k] == nums[k + 1])
-                k++;
-        }
-        return v;
+       vector<vector<int>> result;
+               int n = nums.size();
+                       
+                               // 1. Array ko sort karo taaki two-pointer search aur duplicates handle karna aasan ho jaye
+                                       sort(nums.begin(), nums.end());
+                                               
+                                                       for (int i = 0; i < n - 2; ++i) {
+                                                                   // Agar sabse chhota number hi > 0 hai, toh teen numbers ka sum kabhi 0 nahi ho sakta
+                                                                               if (nums[i] > 0) break;
+                                                                                           
+                                                                                                       // Pehle element ke duplicate values ko skip karo
+                                                                                                                   if (i > 0 && nums[i] == nums[i - 1]) continue;
+                                                                                                                               
+                                                                                                                                           int left = i + 1;
+                                                                                                                                                       int right = n - 1;
+                                                                                                                                                                   
+                                                                                                                                                                               while (left < right) {
+                                                                                                                                                                                               int sum = nums[i] + nums[left] + nums[right];
+                                                                                                                                                                                                               
+                                                                                                                                                                                                                               if (sum == 0) {
+                                                                                                                                                                                                                                                   result.push_back({nums[i], nums[left], nums[right]});
+                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                           // Doosre aur teesre elements ke duplicates ko skip karo
+                                                                                                                                                                                                                                                                                                               while (left < right && nums[left] == nums[left + 1]) left++;
+                                                                                                                                                                                                                                                                                                                                   while (left < right && nums[right] == nums[right - 1]) right--;
+                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                                                           left++;
+                                                                                                                                                                                                                                                                                                                                                                                               right--;
+                                                                                                                                                                                                                                                                                                                                                                                                               } else if (sum < 0) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                   left++; // Sum badhane ke liye left pointer aage badhao
+                                                                                                                                                                                                                                                                                                                                                                                                                                                   } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       right--; // Sum ghatane ke liye right pointer piche lao
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           return result;
     }
 };
