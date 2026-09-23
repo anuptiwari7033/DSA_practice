@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/anuptiwari7033/DSA_practice/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/anuptiwari7033/DSA_practice/tree/master/0015-3sum) |
 | [0494-target-sum](https://github.com/anuptiwari7033/DSA_practice/tree/master/0494-target-sum) |
 | [0733-flood-fill](https://github.com/anuptiwari7033/DSA_practice/tree/master/0733-flood-fill) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/anuptiwari7033/DSA_practice/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/anuptiwari7033/DSA_practice/tree/master/0015-3sum) |
 ## Sorting
 |  |
@@ -71,4 +73,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/anuptiwari7033/DSA_practice/tree/master/0210-course-schedule-ii) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/anuptiwari7033/DSA_practice/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
