@@ -77,4 +77,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/anuptiwari7033/DSA_practice/tree/master/0011-container-with-most-water) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/anuptiwari7033/DSA_practice/tree/master/0002-add-two-numbers) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/anuptiwari7033/DSA_practice/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/anuptiwari7033/DSA_practice/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
