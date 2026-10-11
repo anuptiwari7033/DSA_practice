@@ -44,11 +44,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/anuptiwari7033/DSA_practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0126-word-ladder-ii](https://github.com/anuptiwari7033/DSA_practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/anuptiwari7033/DSA_practice/tree/master/0127-word-ladder) |
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/anuptiwari7033/DSA_practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0126-word-ladder-ii](https://github.com/anuptiwari7033/DSA_practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/anuptiwari7033/DSA_practice/tree/master/0127-word-ladder) |
 ## Bidirectional Search
@@ -89,4 +91,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/anuptiwari7033/DSA_practice/tree/master/0002-add-two-numbers) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/anuptiwari7033/DSA_practice/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
